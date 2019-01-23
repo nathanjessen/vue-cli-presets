@@ -1,25 +1,19 @@
 {
-    "useTaobaoRegistry": false,
-    "packageManager": "yarn",
-    "presets": {
-        "standard": {
-            "useConfigFiles": true,
-            "plugins": {
-                "@vue/cli-plugin-babel": {},
-                "@vue/cli-plugin-eslint": {
-                    "config": "airbnb",
-                    "lintOn": [
-                        "save",
-                        "commit"
-                    ]
-                },
-                "@vue/cli-plugin-unit-mocha": {},
-                "@vue/cli-plugin-e2e-nightwatch": {}
-            },
-            "router": true,
-            "routerHistoryMode": false,
-            "vuex": true,
-            "cssPreprocessor": "sass"
-        }
+    "useConfigFiles": true,
+    "router": true,
+    "routerHistoryMode": false,
+    "vuex": true,
+    "cssPreprocessor": "sass",
+    "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+            "config": "airbnb",
+            "lintOn": [
+                "save",
+                "commit"
+            ]
+        },
+        "@vue/cli-plugin-unit-mocha": {},
+        "@vue/cli-plugin-e2e-nightwatch": {}
     }
 }
