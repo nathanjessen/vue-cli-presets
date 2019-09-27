@@ -3,17 +3,19 @@
     "router": true,
     "routerHistoryMode": false,
     "vuex": true,
-    "cssPreprocessor": "sass",
+    "cssPreprocessor": "dart-sass",
     "plugins": {
         "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-eslint": {
-            "config": "airbnb",
+        "@vue/cli-plugin-typescript": {
+            "classComponent": true,
+            "tsLint": true,
             "lintOn": [
-                "save",
-                "commit"
-            ]
+                "save"
+            ],
+            "useTsWithBabel": true
         },
+        "@vue/cli-plugin-pwa": {},
         "@vue/cli-plugin-unit-mocha": {},
-        "@vue/cli-plugin-e2e-nightwatch": {}
+        "@vue/cli-plugin-e2e-cypress": {}
     }
 }
