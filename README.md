@@ -6,4 +6,5 @@ My presets for Vue CLI
 
 ## Vue CLI Docs
 [Plugins and Presets](https://cli.vuejs.org/guide/plugins-and-presets.html#plugins)
+
 [Remote Presets](https://cli.vuejs.org/guide/plugins-and-presets.html#remote-presets)
